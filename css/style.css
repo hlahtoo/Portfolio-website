@@ -30,7 +30,7 @@ header {
   height: 100vh; /*100% of the viewport*/
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(/images/keyboard_with_cup_of_coffee.jpg);
+    url(../images/keyboard_with_cup_of_coffee.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -266,6 +266,10 @@ h2 {
 .open .date {
   color: #1c7ed6;
 }
+
+.open svg.icon {
+  transform: rotate(180deg);
+}
 /*--------Contact Form----------*/
 .contact-container {
   display: grid;
@@ -284,7 +288,7 @@ h2 {
       rgba(25, 112, 194, 0.566),
       rgba(77, 171, 247, 0.508)
     ),
-    url(/images/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
+    url(../images/florian-klauer-mk7D-4UCfmg-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }

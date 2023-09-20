@@ -1,6 +1,7 @@
 const btnScrollToEdu = document.querySelector('.scroll-to');
 const sectionEdu = document.querySelector('#section-1');
 const btnScrollToContact = document.querySelector('.navi-button-contact');
+const sectionProf = document.querySelector('.prof-container');
 const sectionContact = document.querySelector('.contact-section');
 const btnScrollToExp = document.querySelector('.navi-button-exp');
 const sectionExpContainer = document.querySelectorAll('.exp-item');
@@ -17,7 +18,7 @@ btnScrollToContact.addEventListener('click', function (e) {
 
 btnScrollToExp.addEventListener('click', function (e) {
   console.log(e);
-  sectionEdu.scrollIntoView({ behavior: 'smooth' });
+  sectionProf.scrollIntoView({ behavior: 'smooth' });
 });
 
 for (let i = 0; i < sectionExpContainer.length; i++) {
