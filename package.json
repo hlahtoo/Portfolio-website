@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hlahtoo/github-example.git"
+    "url": "https://github.com/hlahtoo/Portfolio-website"
   },
   "author": "Hla Htoo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hlahtoo/github-example/issues"
+    "url": "https://github.com/hlahtoo/Portfolio-website/issues"
   },
-  "homepage": "https://github.com/hlahtoo/github-example#readme",
+  "homepage": "https://github.com/hlahtoo/Portfolio-website#readme",
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-config-standard": "^17.1.0",

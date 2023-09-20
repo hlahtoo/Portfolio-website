@@ -266,6 +266,10 @@ h2 {
 .open .date {
   color: #1c7ed6;
 }
+
+.open svg.icon {
+  transform: rotate(180deg);
+}
 /*--------Contact Form----------*/
 .contact-container {
   display: grid;
