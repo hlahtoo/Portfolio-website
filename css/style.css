@@ -29,12 +29,15 @@ header {
   /* background-color: orangered; */
   height: 100vh; /*100% of the viewport*/
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/keyboard_with_cup_of_coffee.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/keyboard_with_cup_of_coffee.jpg); */
   background-size: cover;
   color: #fff;
 }
 
+.header-img {
+  color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
 /*------Navigation Bar-------*/
 
 nav {
