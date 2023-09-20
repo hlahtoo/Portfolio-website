@@ -6,7 +6,7 @@
 
 ### Class Link: https://johnguerra.co/classes/webDevelopment_fall_2023/
 
-### Website link: https://hlahtoo.github.io/Portfolio-website/index.html
+### Website link: https://hlahtoo.github.io/Portfolio-website/
 
 ### Video Demonstration link: https://youtu.be/-7jkyWxSNbA?si=fs0lNMirxcblNYOe
 
