@@ -1,8 +1,9 @@
 Project 1: My Personal Homepage
 Author : Hla Htoo
 Class Link: https://johnguerra.co/classes/webDevelopment_fall_2022/
-Website link
+Website link:
 Video Demonstration link:
+Design document:
 
 Project Objective:
 The objective of the project is to showcase my skills, projects, experiences and accomplishments to potential clients, employers or recruiters. They should be able to learn more about my capabilites after exploring my webpage and have a decent idea about whether I can be a great fit in the intended position. This project was created using HTML, CSS and Javascript.
