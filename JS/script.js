@@ -6,6 +6,10 @@ const sectionContact = document.querySelector('.contact-section');
 const btnScrollToExp = document.querySelector('.navi-button-exp');
 const sectionExpContainer = document.querySelectorAll('.exp-item');
 
+for (let i = 0; i < sectionExpContainer.length; i++) {
+  sectionExpContainer[i].classList.remove('open');
+} // close all collapsible once JS loaded
+
 btnScrollToEdu.addEventListener('click', function (e) {
   console.log(e);
   sectionEdu.scrollIntoView({ behavior: 'smooth' });
@@ -26,7 +30,7 @@ for (let i = 0; i < sectionExpContainer.length; i++) {
     console.log(sectionExpContainer[i]);
     sectionExpContainer[i].classList.toggle('open');
   });
-  setTimeout(() => {
-    sectionExpContainer[i].classList.remove('open');
-  }, 10);
+  // setTimeout(() => {
+  //   sectionExpContainer[i].classList.remove('open');
+  // }, 10);
 }
